@@ -1,6 +1,7 @@
 #include<iostream>
 #include<iomanip>
 #include<ctime>
+
 using namespace std;
 class theatre
 {
@@ -29,8 +30,7 @@ class theatre
             cout<<"\n MOVIE NAME : SHANG-CHI And The Legend Of The Ten Rings";
             cout<<"\n SHOW DATE : "<<1+clock->tm_mday<<"/"<<1+clock->tm_mon<<"/"<<1900+clock->tm_year;
             cout<<"\n SHOW TIMINGS : \n 1-> 09:00AM to 12:00PM\n 2-> 01:00PM to 04:00PM\n 3-> 06:00PM to 09:00PM";
-            do
-            {
+            do{
                 if(sh==1)
                 {
                     cout<<"\n ** Please Enter A Valid Input For Show Choices **";
